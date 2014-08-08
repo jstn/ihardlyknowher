@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteRule ^(.+)/$ /$1 [R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.ihardlyknowher\.com$
+RewriteRule ^(.*)$ http://ihardlyknowher.com/$1 [R=301,L]
+
+RewriteRule ^faq.html$ /?controller=main&view=faq [L]
+
+RewriteRule ^flickr.callback$ /?controller=user&view=callback [L,QSA]
+RewriteRule ^user.settings$ /?controller=user&view=callback [L]
+RewriteRule ^save.settings$ /?controller=user&view=save [L]
+
+RewriteRule ^([a-zA-Z0-9@_-]+)/?([0-9]+)?$ /?controller=user&view=photostream&user=$1&page=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9@_-]+)/big/([0-9]+)$ /$1/$2 [R=301]
+RewriteRule ^([a-zA-Z0-9@_-]+)/big /$1 [R=301]
+
+RewriteRule ^([a-zA-Z0-9@_-]+)/sets$ /?controller=user&view=sets&user=$1 [L]
+RewriteRule ^([a-zA-Z0-9@_-]+)/sets/([a-zA-Z0-9]+)?/?([0-9]+)?$ /?controller=user&view=set&user=$1&set=$2&page=$3 [L]

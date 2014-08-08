@@ -1,0 +1,25 @@
+div.regular { font: 12px/20px helvetica,sans-serif; padding: 2em; }
+div.regular a { color: #000; }
+div.regular a:hover { text-decoration: none; }
+div.regular p, div.regular h1 { margin-bottom: 1.5em; }
+div.regular strong { font-weight: bold; }
+div.regular em { font-family: courier; font-style: italic; font-size: 11px; background: #e3e3e3; margin-left: 0.4em; }
+
+div.faq h2 { font-weight: bold; }
+div.faq p { width: 400px; margin-bottom: 2em; }
+
+div.settings form { margin-bottom: 1.5em; ;}
+div.settings form p { margin-top: 1.5em; margin-bottom: 0; }
+div.settings form input[type='radio'] { margin-left: 2em; }
+
+div.photos { margin-top: 30px; }
+div.photos li.photo { margin: 0 auto; line-height: 0; margin-bottom: 30px; }
+div.photos li.pagers, div.photos li.footer { color: #333; margin: 0 auto; text-align: center; position: relative; margin-bottom: 30px; font: 14px helvetica,sans-serif; }
+div.photos li.pagers div.left { position: absolute; bottom: 0; left: 0; }
+div.photos li.pagers div.right { position: absolute; bottom: 0; right: 0; }
+div.photos li.pagers a { color: #333; }
+div.photos li.pagers a:hover { text-decoration: none; }
+div.photos li.pagers a.homelink { font-size: 12px; text-transform: uppercase; }
+div.photos li.footer { margin-top: -6px; color: #ddd; font-size: 11px; }
+div.photos li.footer a { color: #ddd; }
+div.photos li.footer a:hover { text-decoration: none; }
