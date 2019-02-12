@@ -1,6 +1,6 @@
 # I Hardly Know Her #
 
-This is the code powering [IHKH](http://http://ihardlyknowher.com), a minimalist Flickr viewer and joke.
+This is the code powering [IHKH](http://ihardlyknowher.com), a minimalist Flickr viewer and joke.
 
 It is no longer under development and presented here for your amusement (under the MIT license).
 
